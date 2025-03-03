@@ -10,16 +10,16 @@ html {
 }
 body {
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: rgb(247, 243, 243);
+    color: rgb(67, 67, 67);
 }
 a {
     text-decoration: none;
-    color: #333;
+    color:  rgb(67, 67, 67);
 }
 header {
-    background-color: #333;
-    color: #fcf7f7;
+    background-color: rgb(67, 67, 67);
+    color: rgb(247, 243, 243);
     padding: 10px 0;
 }
 .logo{
@@ -43,12 +43,12 @@ nav {
     margin-left: 20px;
 }
 .nav-links a {
-    color: #ffffff;
+    color:rgb(247, 243, 243);
     font-size: 18px;
     padding: 5px 10px;
 }
 .nav-links a:hover {
-    background-color: #f4b400;
+    background-color: yellow;
     border-radius: 5px;
 }
 .hero {
@@ -77,7 +77,7 @@ nav {
     z-index: 2; 
 }
 .hero p {
-    color: #f4f6f8;
+    color: rgb(247, 243, 243);
     font-size: 20px;  
     z-index: 4; 
     background-color: rgba(11, 9, 9, 0.989);
@@ -94,8 +94,8 @@ nav {
     line-height: 1.2; 
 }
 .cta-btn {
-    background-color: #f4b400;
-    color: #333;
+    background-color: yellow;
+    color: rgb(67, 67, 67);
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
@@ -103,11 +103,11 @@ nav {
     z-index: 3; 
 }
 .cta-btn:hover {
-    background-color: #e5a500;
+    background-color: rgb(158, 158, 84);
 }
 #about {
     padding: 85px 20px;
-    background-color: #fff;
+    background-color: whitesmoke;
     text-align: center;
     margin-top: 5px;
 }
@@ -155,7 +155,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #25d366;  
+    background-color: rgb(15, 160, 15);  
     color: white;
     padding: 12px 20px;
     border-radius: 30px;
@@ -173,11 +173,11 @@ nav {
     margin-right: 10px;
 }
 .whatsapp-link:hover {
-    background-color: #128c7e;  
+    background-color: rgb(66, 157, 112);  
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 #services {
-    background-color: #f9f9f9;
+    background-color: whitesmoke;
     padding: 70px 20px;
     text-align: center;
     margin-top: 50px;
@@ -218,7 +218,7 @@ nav {
 }
 #feedback {
     padding: 60px 20px;
-    background-color: #fff;
+    background-color: whitesmoke;
     text-align: center;
     margin-top: 50px;
 }
@@ -226,7 +226,7 @@ nav {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2rem;
-    color: #333;
+    color: rgb(67, 67, 67);
 }
 .container {
     max-width: 800px;
@@ -236,7 +236,7 @@ nav {
     display: block;
     max-width: 500px;
     margin: 0 auto;
-    background-color: #f4f4f4;
+    background-color: whitesmoke;
     padding: 20px;
     border-radius: 8px;
 }
@@ -249,7 +249,7 @@ nav {
 #feedback-form textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(195, 193, 193);
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 1rem;
@@ -268,7 +268,7 @@ nav {
 }
 #rating label {
     font-size: 24px;
-    color: #ddd;
+    color: rgb(216, 188, 188);
     cursor: pointer;
     margin: 0 5px;
 }
@@ -276,7 +276,7 @@ nav {
     color: gold;
 }
 button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -287,7 +287,7 @@ button[type="submit"] {
     margin: 0 auto;
 }
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: rgb(122, 216, 122);
 }
 
 #uploaded-image {
@@ -325,7 +325,7 @@ button[type="submit"]:hover {
     margin-bottom: 20px;
     border-radius: 8px;
     font-size: 1.1rem;
-    color: #333;
+    color: rgb(67, 67, 67);
 }
 #rating-display {
     font-weight: bold;
@@ -334,19 +334,31 @@ button[type="submit"]:hover {
 }
 #feedback-preview {
     margin-top: 20px; 
-    border: 1px solid #ccc; 
+    border: 1px solid rgb(209, 202, 202); 
     padding: 10px; 
     border-radius: 5px; 
 }
 #contact {
     padding: 60px 20px;
-    background-color: #fff;
+    background-color:rgb(209, 202, 202);
     text-align: center;
     margin-top: 50px;
 }
+#deta {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#deta img {
+    max-width: 100px;
+    margin-right: 20px;
+}
 footer {
     text-align: center;
-    background-color: #333;
+    background-color:rgb(67, 67, 67);
     color: white;
     padding: 20px;
 }
